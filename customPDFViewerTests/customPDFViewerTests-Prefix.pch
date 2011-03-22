@@ -1,0 +1,7 @@
+//
+// Prefix header for all source files of the 'customPDFViewerTests' target in the 'customPDFViewerTests' project
+//
+
+#ifdef __OBJC__
+    #import <UIKit/UIKit.h>
+#endif

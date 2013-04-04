@@ -7,9 +7,15 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "viewPDF.h"
 
 @interface customPDFViewerViewController : UIViewController {
-    
+    viewPDF *myPDFView;
 }
+
+@property (nonatomic, retain) viewPDF *myPDFView;
+
+-(IBAction)previousPage;
+-(IBAction)nextPage;
 
 @end

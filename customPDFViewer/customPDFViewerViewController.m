@@ -9,6 +9,7 @@
 #import "customPDFViewerViewController.h"
 
 @implementation customPDFViewerViewController
+@synthesize myPDFView;
 
 - (void)dealloc
 {
@@ -25,13 +26,20 @@
 
 #pragma mark - View lifecycle
 
-/*
-// Implement viewDidLoad to do additional setup after loading the view, typically from a nib.
-- (void)viewDidLoad
-{
+-(void)viewDidLoad {
+    CGRect frame = CGRectMake(0, 100, 768, 800);
+    myPDFView = [[viewPDF alloc] initWithFrame:frame];
+    [self.view addSlubview:myPDFView];
     [super viewDidLoad];
 }
-*/
+
+-(IBAction) previousPage {
+    [myPDFView decreasePageNumber];
+}
+
+-(IBAction) nextPage {
+    [myPDFView increasePageNumber];
+}
 
 - (void)viewDidUnload
 {

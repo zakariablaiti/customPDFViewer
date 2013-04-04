@@ -22,6 +22,8 @@
 		49ED806D1338AEE800AF7276 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 49ED806B1338AEE800AF7276 /* InfoPlist.strings */; };
 		49ED80701338AEE800AF7276 /* customPDFViewerTests.h in Resources */ = {isa = PBXBuildFile; fileRef = 49ED806F1338AEE800AF7276 /* customPDFViewerTests.h */; };
 		49ED80721338AEE800AF7276 /* customPDFViewerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 49ED80711338AEE800AF7276 /* customPDFViewerTests.m */; };
+		49ED807D1338AFFB00AF7276 /* viewPDF.m in Sources */ = {isa = PBXBuildFile; fileRef = 49ED807C1338AFFB00AF7276 /* viewPDF.m */; };
+		49ED807F1338B23D00AF7276 /* myPDF.pdf in Resources */ = {isa = PBXBuildFile; fileRef = 49ED807E1338B23D00AF7276 /* myPDF.pdf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,22 +41,25 @@
 		49ED80421338AEE800AF7276 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		49ED80441338AEE800AF7276 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		49ED80461338AEE800AF7276 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
-		49ED804A1338AEE800AF7276 /* customPDFViewer-Info.plist */ = {isa = PBXFileReference; path = "customPDFViewer-Info.plist"; sourceTree = "<group>"; };
+		49ED804A1338AEE800AF7276 /* customPDFViewer-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "customPDFViewer-Info.plist"; sourceTree = "<group>"; };
 		49ED804C1338AEE800AF7276 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		49ED804E1338AEE800AF7276 /* customPDFViewer-Prefix.pch */ = {isa = PBXFileReference; path = "customPDFViewer-Prefix.pch"; sourceTree = "<group>"; };
+		49ED804E1338AEE800AF7276 /* customPDFViewer-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "customPDFViewer-Prefix.pch"; sourceTree = "<group>"; };
 		49ED804F1338AEE800AF7276 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		49ED80511338AEE800AF7276 /* customPDFViewerAppDelegate.h */ = {isa = PBXFileReference; path = customPDFViewerAppDelegate.h; sourceTree = "<group>"; };
+		49ED80511338AEE800AF7276 /* customPDFViewerAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = customPDFViewerAppDelegate.h; sourceTree = "<group>"; };
 		49ED80521338AEE800AF7276 /* customPDFViewerAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = customPDFViewerAppDelegate.m; sourceTree = "<group>"; };
 		49ED80551338AEE800AF7276 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/MainWindow.xib; sourceTree = "<group>"; };
-		49ED80571338AEE800AF7276 /* customPDFViewerViewController.h */ = {isa = PBXFileReference; path = customPDFViewerViewController.h; sourceTree = "<group>"; };
+		49ED80571338AEE800AF7276 /* customPDFViewerViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = customPDFViewerViewController.h; sourceTree = "<group>"; };
 		49ED80581338AEE800AF7276 /* customPDFViewerViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = customPDFViewerViewController.m; sourceTree = "<group>"; };
 		49ED805B1338AEE800AF7276 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/customPDFViewerViewController.xib; sourceTree = "<group>"; };
 		49ED80621338AEE800AF7276 /* customPDFViewerTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = customPDFViewerTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		49ED806A1338AEE800AF7276 /* customPDFViewerTests-Info.plist */ = {isa = PBXFileReference; path = "customPDFViewerTests-Info.plist"; sourceTree = "<group>"; };
+		49ED806A1338AEE800AF7276 /* customPDFViewerTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "customPDFViewerTests-Info.plist"; sourceTree = "<group>"; };
 		49ED806C1338AEE800AF7276 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
-		49ED806E1338AEE800AF7276 /* customPDFViewerTests-Prefix.pch */ = {isa = PBXFileReference; path = "customPDFViewerTests-Prefix.pch"; sourceTree = "<group>"; };
+		49ED806E1338AEE800AF7276 /* customPDFViewerTests-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "customPDFViewerTests-Prefix.pch"; sourceTree = "<group>"; };
 		49ED806F1338AEE800AF7276 /* customPDFViewerTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = customPDFViewerTests.h; sourceTree = "<group>"; };
 		49ED80711338AEE800AF7276 /* customPDFViewerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = customPDFViewerTests.m; sourceTree = "<group>"; };
+		49ED807B1338AFFB00AF7276 /* viewPDF.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = viewPDF.h; sourceTree = "<group>"; };
+		49ED807C1338AFFB00AF7276 /* viewPDF.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = viewPDF.m; sourceTree = "<group>"; };
+		49ED807E1338B23D00AF7276 /* myPDF.pdf */ = {isa = PBXFileReference; lastKnownFileType = image.pdf; path = myPDF.pdf; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +124,8 @@
 				49ED80571338AEE800AF7276 /* customPDFViewerViewController.h */,
 				49ED80581338AEE800AF7276 /* customPDFViewerViewController.m */,
 				49ED805A1338AEE800AF7276 /* customPDFViewerViewController.xib */,
+				49ED807B1338AFFB00AF7276 /* viewPDF.h */,
+				49ED807C1338AFFB00AF7276 /* viewPDF.m */,
 				49ED80491338AEE800AF7276 /* Supporting Files */,
 			);
 			path = customPDFViewer;
@@ -127,6 +134,7 @@
 		49ED80491338AEE800AF7276 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				49ED807E1338B23D00AF7276 /* myPDF.pdf */,
 				49ED804A1338AEE800AF7276 /* customPDFViewer-Info.plist */,
 				49ED804B1338AEE800AF7276 /* InfoPlist.strings */,
 				49ED804E1338AEE800AF7276 /* customPDFViewer-Prefix.pch */,
@@ -225,6 +233,7 @@
 				49ED804D1338AEE800AF7276 /* InfoPlist.strings in Resources */,
 				49ED80561338AEE800AF7276 /* MainWindow.xib in Resources */,
 				49ED805C1338AEE800AF7276 /* customPDFViewerViewController.xib in Resources */,
+				49ED807F1338B23D00AF7276 /* myPDF.pdf in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -263,6 +272,7 @@
 				49ED80501338AEE800AF7276 /* main.m in Sources */,
 				49ED80531338AEE800AF7276 /* customPDFViewerAppDelegate.m in Sources */,
 				49ED80591338AEE800AF7276 /* customPDFViewerViewController.m in Sources */,
+				49ED807D1338AFFB00AF7276 /* viewPDF.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
